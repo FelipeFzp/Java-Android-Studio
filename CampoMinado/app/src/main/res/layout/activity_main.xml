@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="felipe.campominado.MainActivity">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="Pontuação: X"
+        android:textAlignment="viewStart"
+        android:paddingTop="20dp"
+        android:paddingLeft="18dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <GridLayout
+        android:rowCount="10"
+        android:columnCount="10"
+        android:paddingTop="33dp"
+        android:layout_gravity="center_horizontal">
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field00"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field10"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field20"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field30"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field40"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field50"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field60"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field70"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field80"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field90"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field01"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field11"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field21"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field31"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field41"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field51"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field61"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field71"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field81"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field91"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field02"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field12"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field22"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field32"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field42"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field52"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field62"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field72"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field82"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field92"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field03"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field13"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field23"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field33"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field43"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field53"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field63"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field73"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field83"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field93"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field04"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field14"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field24"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field34"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field44"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field54"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field64"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field74"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field84"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field94"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field05"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field15"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field25"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field35"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field45"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field55"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field65"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field75"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field85"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field95"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field06"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field16"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field26"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field36"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field46"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field56"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field66"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field76"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field86"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field96"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field07"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field17"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field27"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field37"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field47"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field57"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field67"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field77"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field87"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field97"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field08"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field18"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field28"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field38"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field48"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field58"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field68"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field78"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field88"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field98"/>
+
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field09"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field19"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field29"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field39"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field49"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field59"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field69"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field79"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field89"/>
+        <Button android:layout_width="33dp" android:layout_height="33dp" android:id="@+id/field99"/>
+
+
+    </GridLayout>
+</GridLayout>
